@@ -6,39 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>http://www.numbersense.io/</loc>
+  <lastmod>2015-10-07T05:58:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.numbersense.io/2015/</loc>
-  <lastmod>2015-10-07T04:46:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/archive.html</loc>
-  <lastmod>2015-10-07T04:46:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/blog/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/categories/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/categories/test/</loc>
-  <lastmod>2015-10-07T04:46:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/galleries/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/galleries/design/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/galleries/visualizations/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.numbersense.io/listings/</loc>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.numbersense.io/posts/our-first-post/</loc>
-  <lastmod>2015-10-07T04:47:00Z</lastmod>
+  <lastmod>2015-10-07T05:36:00Z</lastmod>
  </url>
 </urlset>
