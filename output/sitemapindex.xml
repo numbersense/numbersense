@@ -6,59 +6,27 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://www.numbersense.io/authors/numbersense.xml</loc>
-  <lastmod>2015-09-29T03:08:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/authors/roberto-alsina.xml</loc>
-  <lastmod>2015-09-29T03:05:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/categories/blog.xml</loc>
-  <lastmod>2015-09-29T02:24:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/categories/cat_nikola.xml</loc>
-  <lastmod>2015-09-29T02:24:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/categories/demo.xml</loc>
-  <lastmod>2015-09-29T02:24:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/categories/nikola.xml</loc>
-  <lastmod>2015-09-29T02:24:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/categories/python.xml</loc>
-  <lastmod>2015-09-29T02:24:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.numbersense.io/categories/test.xml</loc>
-  <lastmod>2015-09-29T03:08:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.numbersense.io/galleries/demo/rss.xml</loc>
-  <lastmod>2015-10-07T03:11:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.numbersense.io/galleries/design/rss.xml</loc>
-  <lastmod>2015-10-07T03:43:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.numbersense.io/galleries/rss.xml</loc>
-  <lastmod>2015-10-07T03:11:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.numbersense.io/galleries/visualizations/rss.xml</loc>
-  <lastmod>2015-10-07T03:21:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.numbersense.io/rss.xml</loc>
-  <lastmod>2015-10-07T03:01:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.numbersense.io/sitemap.xml</loc>
-  <lastmod>2015-10-07T03:43:00Z</lastmod>
+  <lastmod>2015-10-07T04:47:00Z</lastmod>
  </sitemap>
 </sitemapindex>
