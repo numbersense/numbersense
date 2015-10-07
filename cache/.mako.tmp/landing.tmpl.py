@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1444197532.116867
+_modified_time = 1444197706.200011
 _enable_loop = True
 _template_filename = 'templates/landing.tmpl'
 _template_uri = 'landing.tmpl'
@@ -36,14 +36,14 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        messages = context.get('messages', UNDEFINED)
         post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
         helper = _mako_get_namespace(context, 'helper')
+        enable_comments = context.get('enable_comments', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -62,14 +62,14 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def content():
             return render_content(context)
-        messages = context.get('messages', UNDEFINED)
         post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
         helper = _mako_get_namespace(context, 'helper')
+        enable_comments = context.get('enable_comments', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n')
         __M_writer('    <div class="e-content entry-content" itemprop="articleBody text">\n    ')
@@ -91,6 +91,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "templates/landing.tmpl", "line_map": {"74": 7, "75": 13, "76": 14, "77": 14, "78": 16, "79": 17, "80": 18, "81": 18, "82": 19, "83": 19, "84": 22, "85": 22, "86": 22, "23": 3, "26": 4, "92": 86, "29": 2, "35": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7}, "source_encoding": "utf-8", "uri": "landing.tmpl"}
+{"uri": "landing.tmpl", "source_encoding": "utf-8", "line_map": {"74": 7, "75": 13, "76": 14, "77": 14, "78": 16, "79": 17, "80": 18, "81": 18, "82": 19, "83": 19, "84": 22, "85": 22, "86": 22, "23": 3, "26": 4, "92": 86, "29": 2, "35": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7}, "filename": "templates/landing.tmpl"}
 __M_END_METADATA
 """
