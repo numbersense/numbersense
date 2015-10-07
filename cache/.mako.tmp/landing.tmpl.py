@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1444189900.380824
+_modified_time = 1444190700.508526
 _enable_loop = True
 _template_filename = 'templates/landing.tmpl'
 _template_uri = 'landing.tmpl'
@@ -20,11 +20,11 @@ def _mako_get_namespace(context, name):
         _mako_generate_namespaces(context)
         return context.namespaces[(__name__, name)]
 def _mako_generate_namespaces(context):
-    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'comments')] = ns
-
     ns = runtime.TemplateNamespace('pheader', context._clean_inheritance_tokens(), templateuri='post_header.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'pheader')] = ns
+
+    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'comments')] = ns
 
     ns = runtime.TemplateNamespace('helper', context._clean_inheritance_tokens(), templateuri='post_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'helper')] = ns
@@ -36,14 +36,14 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        def content():
-            return render_content(context._locals(__M_locals))
+        messages = context.get('messages', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        helper = _mako_get_namespace(context, 'helper')
         site_has_comments = context.get('site_has_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
+        def content():
+            return render_content(context._locals(__M_locals))
+        helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -62,14 +62,14 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        def content():
-            return render_content(context)
+        messages = context.get('messages', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        helper = _mako_get_namespace(context, 'helper')
         site_has_comments = context.get('site_has_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
+        def content():
+            return render_content(context)
+        helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n')
         __M_writer('    <div class="e-content entry-content" itemprop="articleBody text">\n    ')
@@ -91,6 +91,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "filename": "templates/landing.tmpl", "line_map": {"74": 7, "75": 13, "76": 14, "77": 14, "78": 16, "79": 17, "80": 18, "81": 18, "82": 19, "83": 19, "84": 22, "85": 22, "86": 22, "23": 4, "26": 3, "92": 86, "29": 2, "35": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7}, "uri": "landing.tmpl"}
+{"filename": "templates/landing.tmpl", "uri": "landing.tmpl", "source_encoding": "utf-8", "line_map": {"74": 7, "75": 13, "76": 14, "77": 14, "78": 16, "79": 17, "80": 18, "81": 18, "82": 19, "83": 19, "84": 22, "85": 22, "86": 22, "23": 3, "26": 4, "92": 86, "29": 2, "35": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7}}
 __M_END_METADATA
 """
