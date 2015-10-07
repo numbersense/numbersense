@@ -11,9 +11,9 @@
 
 	Numbersense is data science consultancy.  
 		
-	We create data products that move organzations from retroactive reviewing their data to predictive and prescriptive analyses that inform how best to deploy scarce organizational capital. We have particular expertise in coalating and analyzing  education data regardless of source: student information systems, assessment systems, ed tech and blended learning platforms, and standardized tests. 
+	We create data products that move organizations from retroactive reviews of their data to predictive and prescriptive analyses that inform how best to deploy scarce organizational capital. We have particular expertise in collating and analyzing education data regardless of source: student information systems, assessment systems, ed tech and blended learning platforms, and standardized tests. 
 
-	We focus on robust analyses using the lastest statistical and machine learning techniques coupled with thoughtful data visualizaitons and custom software tools.
+	We focus on robust analyses using the lastest statistical and machine learning techniques coupled with thoughtful data visualizations and custom software tools.
 
 
 .. class:: container
@@ -29,19 +29,19 @@ Services
 
 Stastical Visualizations
 ------------------------
-Wondering what student growth *has* and *will* look like?  Not sure if grade-level results are subustantivley meaningful?  `Allow us to show you </galleries/visualizations/>`_. 
+Wondering what student growth *has* and *will* look like?  Not sure if grade-level results are substantively meaningful?  `Allow us to show you </galleries/visualizations/>`_. 
 
 .. class:: col-md-4  lead
 	
 Custom Data Products
 ---------------------
-Need your daily flow of data analyzed, visualized, and `available <https://chrishaid.ocpu.io/mapspringr/www/>`_?  Have us build you automated reports, `interactive data visualizations <https://kippdata.shinyapps.io/2015_norms>`_, and `other data products <https://kippdata.shinyapps.io/map_projector>`_ that get information in the right hands at the right time. 
+Need your daily data flow data analyzed, visualized, and available?  Have us build you automated `reports  <https://kippdata.shinyapps.io/map_projector>`_, `interactive data visualizations <https://kippdata.shinyapps.io/2015_norms>`_, and `other data products <https://chrishaid.ocpu.io/mapspringr/www/>`_ that get information in the right hands at the right time. 
 
 .. class:: div col-md-4  lead
 	
 ETL
 ---
-Have more data sources than you can shake a stick at?  Let us **extract** data from their source systems, **transform** it (if necessary), and **load** into a custom data mart `that centralizes all of your disparate data systems </galleries/design/>`_. 
+Have more data sources than you can shake a stick at?  Let us **extract** data from their source systems, **transform** it (if necessary), and **load** it into a custom data mart `that centralizes all of your disparate data systems </galleries/design/>`_. 
 
 
 .. class:: row col-md-12 
