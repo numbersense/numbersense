@@ -9,7 +9,7 @@
 
 .. class:: col-md-8 col-md-offset-2  lead
 
-	Numbersense is data science consultancy.  
+	Numbersense is a data science consultancy.  
 		
 	We create data products that move organizations from retroactive reviews of their data to predictive and prescriptive analyses that inform how best to deploy scarce organizational capital. We have particular expertise in collating and analyzing education data regardless of source: student information systems, assessment systems, ed tech and blended learning platforms, and standardized tests. 
 
@@ -41,7 +41,7 @@ Need your daily data flow data analyzed, visualized, and available?  Have us bui
 	
 ETL
 ---
-Have more data sources than you can shake a stick at?  Let us **extract** data from their source systems, **transform** it (if necessary), and **load** it into a custom data mart `that centralizes all of your disparate data systems </galleries/design/>`_. 
+Have more data sources than you can shake a stick at?  Let us **extract** data from their source systems, **transform** it (if necessary), and **load** it 	into a custom data mart `that centralizes all of your disparate data systems </galleries/design/>`_. 
 
 
 .. class:: row col-md-12 
