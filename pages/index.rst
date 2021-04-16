@@ -52,7 +52,7 @@ Have more data sources than you can shake a stick at?  Let us **extract** data f
 About
 =====
 
-Numbersense is based in Brooklyn, NYC and Chicago, IL and was founded by `Andrew Martin <https://www.github.com/almartin82>`_ and `Chris Haid <https://www.github.com/chrishaid>`_ in 2015.  
+Numbersense is based in Brooklyn, NYC and Chicago, IL and was founded by `Chris Haid <https://www.github.com/chrishaid>`_ in 2015.  
 
 
 .. class:: jumbotron col-md-4
